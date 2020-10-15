@@ -41,6 +41,7 @@ namespace GAMF
             app.UseStaticFiles();
             app.UseRouting();
             app.UseAuthorization();
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {
