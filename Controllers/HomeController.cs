@@ -19,7 +19,7 @@ namespace GAMF.Controllers
         public IActionResult Index()
         {
 
-            var student = _context.Students.ToList();
+            var student_ = _context.Students.ToList();
             return View();
         }
     }
